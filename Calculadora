@@ -1,4 +1,4 @@
-
+// class main
 import java.util.Scanner;
 
 public class Main {
@@ -15,5 +15,14 @@ public class Main {
 
         System.out.println(" A soma é: "+ soma);
         scanner.close();
+    }
+}
+
+// classe Calculadora 
+
+public class Calculadora {
+    public int somar ( int num1, int num2) {
+        return num1 + num2;
+
     }
 }
